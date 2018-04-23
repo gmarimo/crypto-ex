@@ -1,0 +1,85 @@
+<!--
+  Generated template for the BpaymentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Buy Bitcoins</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <ion-grid>
+      <ion-row>
+
+        <ion-col>
+          <ion-item no-lines>
+            <ion-label floating>USD</ion-label>
+            <ion-input class="ioninput" type="number"></ion-input>
+          </ion-item>
+        </ion-col>
+
+        <ion-col>
+          <ion-item no-lines>
+            <ion-label floating>BTC</ion-label>
+            <ion-input class="ioninput" type="number"></ion-input>
+          </ion-item>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <ion-item no-lines>
+      <ion-label>Commission</ion-label>
+      <ion-input class="comm" placeholder="0.00" type="number"></ion-input>
+    </ion-item>
+
+    <ion-item no-lines>
+        <ion-label>Get</ion-label>
+        <ion-input class="comm1" placeholder="BTC" type="number"></ion-input>BTC
+    </ion-item>
+
+    <ion-item no-lines>
+        <ion-label>Pay</ion-label>
+        <ion-input class="comm1" placeholder="$" type="number"></ion-input>$
+    </ion-item>
+
+    <ion-item>
+        <button ion-button color="primary" block outline>Complete Payment of $300</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="pymntlbl">Select payment method</ion-label>
+    </ion-item>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col class="pymnt">
+          <ion-label>Ecocash</ion-label>
+          <img src="assets/imgs/ecocash.png">
+          <button ion-button class="btn" color="primary">Pay $300</button>
+        </ion-col>
+        <ion-col class="pymnt">
+            <ion-label>Zipit</ion-label>
+            <img class="img" src="assets/imgs/zipit.png">
+            <button ion-button class="btn" color="primary">Pay $300</button>
+        </ion-col>
+      </ion-row>  
+      <ion-row>
+        <ion-col class="pymnt">
+            <ion-label>P.O.S</ion-label>
+            <img class="img" src="assets/imgs/zimswitch.png">
+            <button ion-button class="btn" color="primary">Pay $300</button>
+        </ion-col>
+        <ion-col class="pymnt">
+            <ion-label>Paynow</ion-label>
+            <img class="img" src="assets/imgs/topup.png">
+            <button ion-button class="btn" color="primary">Pay $300</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>

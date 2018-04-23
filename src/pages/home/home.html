@@ -1,17 +1,49 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/imgs/logowhite.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+
+
+
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>LOGIN</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="background">
+  <ion-card>
+    <ion-card-content>
+
+  <ion-list no-lines>
+    <ion-item>
+        <img src="assets/imgs/logowhite.png">
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <button ion-button full color="#000080" (click)='load()'>LOGIN</button>
+
+      <ion-item>
+          <p>Forgot password? <a>Reset it here.</a></p>
+        </ion-item>
+
+        <ion-item>
+            <p>Have no account? <a>Create here.</a></p>
+          </ion-item>
+  </ion-list>
+ </ion-card-content>
+</ion-card>
+  
 </ion-content>

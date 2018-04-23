@@ -7,6 +7,17 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { BtcPage } from '../pages/btc/btc';
+import { BpaymentPage } from '../pages/bpayment/bpayment';
+import { ExchangePage } from '../pages/exchange/exchange';
+import { DepositPage } from '../pages/deposit/deposit';
+import { PrepaidPage } from '../pages/prepaid/prepaid';
+import { WithdrawPage } from '../pages/withdraw/withdraw'
+import { SettingsPage } from '../pages/settings/settings';
+import { AlertsPage } from '../pages/alerts/alerts';
+import { SharePage } from '../pages/share/share';
+import { InvitePage } from '../pages/invite/invite';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +28,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    BtcPage,
+    BpaymentPage,
+    ExchangePage,
+    DepositPage,
+    PrepaidPage,
+    WithdrawPage,
+    SettingsPage,
+    AlertsPage,
+    SharePage,
+    InvitePage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +50,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    BtcPage,
+    BpaymentPage,
+    ExchangePage,
+    DepositPage,
+    PrepaidPage,
+    WithdrawPage,
+    SettingsPage,
+    AlertsPage,
+    SharePage,
+    InvitePage
   ],
   providers: [
     StatusBar,
